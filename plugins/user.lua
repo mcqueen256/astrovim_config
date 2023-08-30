@@ -27,5 +27,16 @@ return {
     "kdheepak/lazygit.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     event = "VeryLazy",
-  }
+  },
+  {
+    "wfxr/minimap.vim",
+    event = "VeryLazy",
+    init = function()
+      vim.g.minimap_auto_start = 1
+      vim.g.minimap_git_colors = 1
+    end,
+    build = function()
+      vim.cmd('!cargo install --locked code-minimap')
+    end,
+  },
 }

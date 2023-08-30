@@ -15,7 +15,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.svelt" },
-  { import = "astrocommunity.pack.tailwind" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
 }
