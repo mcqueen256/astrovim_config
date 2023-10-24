@@ -18,9 +18,9 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
-  {
-    import = "astrocommunity.split-and-window.minimap-vim",
-    build = "cargo install --locked code-minimap",
-  },
+  -- {
+  --   import = "astrocommunity.split-and-window.minimap-vim",
+  --   build = "cargo install --locked code-minimap",
+  -- },
   { import = "astrocommunity.editing-support.telescope-undo-nvim" },
 }
