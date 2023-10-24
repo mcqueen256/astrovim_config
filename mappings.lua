@@ -39,6 +39,8 @@ return {
     -- Page Jumping but nice.
     ["<C-d>"] = { "<C-d>zz" },
     ["<C-u>"] = { "<C-u>zz" },
+    ["K"] = { ":m .-2<CR>==" },
+    ["J"] = { ":m .+1<CR>==" },
   },
   t = {
     -- setting a mapping to false will disable it
@@ -46,7 +48,7 @@ return {
   },
   v = {
     -- Move selected lines.
-    ["J"] = { ":m '>+1<CR>gv=gv<cr>" },
-    ["K"] = { ":m '<-2<CR>gv=gv<cr>" },
+    ["K"] = { ":m '<-2<CR>gv=gv" },
+    ["J"] = { ":m '>+1<CR>gv=gv" },
   },
 }
