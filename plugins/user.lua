@@ -88,6 +88,8 @@ return {
   },
   {
     "goolord/alpha-nvim",
+    url = "https://github.com/mcqueen256/alpha-nvim.git",
+    commit = "f3a668479e14a468205d1e6640f0a2613be9b392",
     -- build = "cargo install brain-brainfuck",
     opts = function()
       local dashboard = require "alpha.themes.dashboard"
