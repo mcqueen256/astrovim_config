@@ -41,6 +41,8 @@ return {
     ["<C-u>"] = { "<C-u>zz" },
     ["K"] = { ":m .-2<CR>==" },
     ["J"] = { ":m .+1<CR>==" },
+    ["n"] = { "nzzzv" },
+    ["N"] = { "Nzzzv" },
   },
   t = {
     -- setting a mapping to false will disable it
